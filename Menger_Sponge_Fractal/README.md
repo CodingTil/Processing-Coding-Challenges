@@ -1,7 +1,7 @@
-# Dithering
+# Menger Sponge Fractal
 
 ## Samples
-![](https://imgur.com/0cAOIXD)
+![](https://i.imgur.com/0cAOIXD.gif)
 
 ## Usage
 | Tool | Shortcut |
