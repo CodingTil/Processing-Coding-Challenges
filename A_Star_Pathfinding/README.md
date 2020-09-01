@@ -4,6 +4,8 @@
 ![](A_Star.gif)
 
 ## Usage
+| Tool | Shortcut |
+| --- | --- |
 | Set starting point | `s` |
 | Set end point | `e` |
 | Simulate quickly | `f` |
