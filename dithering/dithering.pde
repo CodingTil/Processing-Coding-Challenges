@@ -3,7 +3,7 @@ PImage dithered;
 int factor = 1;
 
 void settings() {
-  original = loadImage("baby_yoda.jpg");
+  original = loadImage("image.jpg");
   size(original.width, original.height * 2);
 }
 
