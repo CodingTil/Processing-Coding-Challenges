@@ -1,7 +1,7 @@
 # A* Pathfinding
 
 ## Samples
-![](A_Star.gif)
+![](https://imgur.com/a/N3S36MB)
 
 ## Usage
 | Tool | Shortcut |
