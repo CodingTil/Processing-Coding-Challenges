@@ -22,7 +22,7 @@ color cell_color = color(5, 5, 250);
 color edge_color = color(5, 250, 250);
 color light_color = color(255, 255, 224);
 
-boolean drawEdges = false;
+boolean drawEdges = true;
 boolean drawLight = false;
 
 void settings() {
@@ -36,7 +36,7 @@ void setup() {
 }
 
 void draw() {
-  System.out.println(frameRate);
+  //System.out.println(frameRate);
   
   if ((mouseX > CELL_SIZE) && (mouseX <= GRID_WIDTH * CELL_SIZE) && (mouseY > CELL_SIZE) && (mouseY <= GRID_HEIGHT * CELL_SIZE)) {
     drawLight = true;
@@ -50,6 +50,7 @@ void draw() {
   background(50);
   if (drawLight) {
     noStroke();
+    stroke(light_color);
     fill(light_color);
     for (int i = 0; i < lightPoints.size() - 1; i++) {
       PVector v1 = lightPoints.get(i);
