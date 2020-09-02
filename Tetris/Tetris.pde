@@ -101,6 +101,7 @@ color randomColor() {
 
 void draw() {
   if(!sound.isPlaying()) sound.play();
+  sound.amp(0.04);
   
   if (!removeLines.isEmpty()) {
     delay(400);
