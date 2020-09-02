@@ -1,4 +1,4 @@
 # Parametric Lines
 
 ## Samples
-![](https://i.imgur.com/0eSP5kN.gif)
+![](https://i.imgur.com/NfqeEMZ.gif)
